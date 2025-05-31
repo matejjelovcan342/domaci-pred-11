@@ -1,0 +1,206 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+.backgroundColorGreen {
+	background-color: rgb(11, 248, 11);
+}
+.backgroundColorBlack {
+	background-color: black;
+}
+.colorWhite {
+	color: white;
+}
+.flex {
+	display: flex;
+}
+.navigation {
+	justify-content: space-around;
+	list-style-type: none;
+	padding: 10px;
+	margin: 0 200px;
+	background-color: #5a5454;
+	border-radius: 0 0 8px 8px;
+}
+.navigation a {
+	color: white;
+	text-decoration: none;
+}
+.navigation a:hover,
+.navigation a:active,
+.navigation a:visited,
+.navigaton a:focus {
+	color: white;
+}
+.introduction {
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+	height: 78vh;
+	gap: 40px;
+}
+.introAboutMe {
+	width: 30%;
+	gap: 30px;
+	flex-direction: column;
+	align-items: center;
+	font-size: 2.5rem;
+
+	font-family: "WDXL Lubrifont TC", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.introButton {
+	font-size: 1.1rem;
+	padding: 5px;
+	border-radius: 12px;
+	border-style: none;
+}
+
+.introButton:hover {
+	box-shadow: 1px 1px 20px 20px rgb(54 228 50 / 56%),
+		6px 15px 20px 0 rgb(47 225 69 / 63%);
+}
+
+.profilePicture {
+	height: 274px;
+	border-radius: 105px;
+}
+
+.kitchenWorkSection {
+	margin: 40px 453px;
+	flex-direction: column;
+	gap: 30px;
+	padding-bottom: 58px;
+	border-style: solid;
+}
+.kitchenHeader {
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	padding: 58px;
+}
+.kitchenHeader h1 {
+	font-size: 30px;
+}
+.kitchenDescription {
+	flex-direction: column;
+	width: 45%;
+	padding-top: 35px;
+	font-size: 17px;
+}
+.kitchenDescription p {
+	padding: 20px 0;
+}
+.kitchenCard {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	height: 189px;
+	justify-content: space-around;
+}
+.kitchenCard img {
+	width: 38%;
+	height: 100%;
+	border-radius: 45px;
+}
+.kitchenButton {
+	width: 80px;
+	border-radius: 12px;
+}
+.kitchenButton:hover {
+	box-shadow: 1px 1px 20px 20px rgb(54 228 50 / 56%),
+		6px 15px 20px 0 rgb(47 225 69 / 63%);
+}
+.testimonialsSection {
+	padding: 20px 338px;
+	height: 76vh;
+	flex-direction: column;
+	justify-content: center;
+}
+.testimonialsHeader {
+	flex-direction: column;
+	align-items: center;
+	margin: 56px 0;
+	gap: 5px;
+}
+.testimonialsHeader h1 {
+	font-size: 30px;
+}
+.testimonials {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.testimonialsCard {
+	width: 40%;
+	border-style: double;
+	margin: 20px;
+	padding: 11px;
+}
+.testimonialGiver {
+	margin: 20px 0;
+	gap: 10px;
+	font-style: italic;
+	font-weight: bolder;
+}
+.testimonialGiver img {
+	width: 30px;
+	border-radius: 20px;
+}
+
+.webDesignSection {
+	flex-direction: column;
+	height: 66vh;
+	justify-content: center;
+	gap: 50px;
+}
+.webDesignHeader {
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+	padding-top: 30px;
+}
+.webDesignHeader h1 {
+	font-size: 30px;
+}
+.webDesignParent {
+	flex-direction: row;
+	justify-content: center;
+	gap: 63px;
+}
+.webDesignCard {
+	width: 22%;
+	flex-direction: column;
+	gap: 33px;
+}
+.webDesignCard img {
+	width: 100%;
+}
+.webDesignButton {
+	width: 80px;
+	border-radius: 12px;
+}
+.webDesignButton:hover {
+	box-shadow: 1px 1px 20px 20px rgb(54 228 50 / 56%),
+		6px 15px 20px 0 rgb(47 225 69 / 63%);
+}
+.formSection {
+	flex-direction: column;
+	align-items: center;
+	height: 60vh;
+	justify-content: center;
+}
+.formHeader {
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 32px;
+}
+.formHeader h1 {
+	font-size: 30px;
+}
+.form {
+	flex-direction: column;
+	align-items: center;
+}
